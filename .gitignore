@@ -5,11 +5,16 @@
 __pycache__
 db.sqlite3
 media
-
+/static/
 # Backup files #
 *.bak
 
 # If you are using PyCharm #
+.idea/**/vcs.xml
+.idea/**/misc.xml
+.idea/**/misc.xml
+.idea/**/modules.xml
+.idea/inspectionProfiles
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/dictionaries
@@ -41,6 +46,7 @@ parts/
 sdist/
 var/
 wheels/
+static/
 *.egg-info/
 .installed.cfg
 *.egg
